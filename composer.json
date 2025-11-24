@@ -2,8 +2,7 @@
     "require": {
         "tightenco/jigsaw": "^1.8",
         "spatie/image": "^3.8",
-        "ext-gd": "*",
-        "php": "^8.0"
+        "ext-gd": "*"
     },
     "autoload": {
       "psr-4": {
