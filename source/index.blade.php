@@ -145,8 +145,8 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 pt-8">
         @foreach ($photos->sortBy('weight') as $photo)
             <div x-show="filter === 'visas' || '{{ $photo->tag }}' === filter" class="relative group"
-                @click=" selectedImage = '{{ $photo->image }}'">
-                <img src="{{ $photo->image }}"
+                @click=" selectedImage = '{{ imager($photo->image, 1024) }}'">
+                <img src="{{ imager($photo->image, 450) }}"
                         alt="{{ $photo->title ?? 'Selonijas galerijas attēls' }}"
                         class="w-full h-full object-cover grayscale-0 group-hover:grayscale cursor-pointer transition duration-600">
                 <div class="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-600 cursor-pointer bg-neutral-800 bg-opacity-50">
@@ -189,7 +189,7 @@
             @foreach ($prezidijs->sortBy('weight') as $amatpersona)
                     <div class="relative group">
                         <div>
-                            <img src="{{ $amatpersona->image }}"
+                            <img src="{{ imager($amatpersona->image, 410) }}"
                                 alt="{{ $amatpersona->title ?? 'Selonijas galerijas attēls' }}"
                                 class="w-full h-full object-cover grayscale-0 group-hover:grayscale transition duration-600">
                         </div>

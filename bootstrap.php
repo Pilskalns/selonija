@@ -1,5 +1,6 @@
 <?php
 
+use Helpers\ImageOptimizer;
 use TightenCo\Jigsaw\Jigsaw;
 
 /** @var \Illuminate\Container\Container $container */
@@ -15,3 +16,14 @@ use TightenCo\Jigsaw\Jigsaw;
  *     // Your code here
  * });
  */
+
+if (! function_exists('imager')) {
+    function imager(string $path, int $width): string
+    {
+        return ImageOptimizer::imager($path, $width);
+    }
+}
+
+$events->afterBuild(function (Jigsaw $jigsaw) {
+    ImageOptimizer::afterBuild($jigsaw);
+});

@@ -1,5 +1,12 @@
 {
     "require": {
-        "tightenco/jigsaw": "^1.8"
+        "tightenco/jigsaw": "^1.8",
+        "spatie/image": "^3.8",
+        "ext-gd": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Helpers\\": "helpers"
+      }
     }
 }
