@@ -35,6 +35,7 @@ class ImageOptimizer
             Image::useImageDriver(ImageDriver::Gd)
                 ->loadFile($file)
                 ->width($width)
+                ->optimize()
                 ->save($write);
         }
 
