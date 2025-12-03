@@ -1,6 +1,6 @@
 ---
 title: t/l seniors
-name: com! Edgars Tumiņš
+name: com! Alberts Toms Vītols
 weight: 1
-image: /assets/prezidijs/edgars_tumins.jpg
+image: /assets/prezidijs/toms_alberts_vitols.jpg
 ---

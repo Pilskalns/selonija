@@ -1,6 +1,6 @@
 ---
 title: t/l viceseniors
-name: com! Toms Alberts Vītols
+name: com! Everts Pauls Grotuss
 weight: 2
-image: /assets/prezidijs/toms_alberts_vitols.jpg
+image: /assets/prezidijs/prezidijs-none.png
 ---
