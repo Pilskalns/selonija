@@ -1,6 +1,6 @@
 ---
 title: t/l viceseniors
-name: com! Everts Pauls Grotuss
+name: com! Rūdolfs Jānis Striks
 weight: 2
 image: /assets/prezidijs/prezidijs-none.png
 ---

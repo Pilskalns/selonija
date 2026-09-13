@@ -1,6 +1,6 @@
 ---
 title: t/l seniors
-name: com! Alberts Toms Vītols
+name: com! Daniels Dambītis
 weight: 1
-image: /assets/prezidijs/toms_alberts_vitols.jpg
+image: /assets/prezidijs/prezidijs-none.png
 ---
