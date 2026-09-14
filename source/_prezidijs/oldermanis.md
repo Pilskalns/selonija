@@ -1,6 +1,6 @@
 ---
 title: t/l oldermanis
-name: com! Atis Legzdiņš
+name: com! Valters Rogulis
 weight: 4
-image: /assets/prezidijs/atis_legzdins.jpg
+image: /assets/prezidijs/prezidijs-none.png
 ---
